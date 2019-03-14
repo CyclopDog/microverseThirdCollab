@@ -5,6 +5,9 @@
     background-color: black;
     height: 100px;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 #navbar button {
@@ -66,6 +69,9 @@
     justify-content: flex-end;
     align-items: center;
     background-color: rgb(190, 255, 206);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
 }
 
 #navbar2 a {
@@ -96,7 +102,7 @@
     font-size: 48px;
 }
 
-#image-links {
+#projects {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -104,15 +110,32 @@
 }
 
 
-#image-links img{
-	margin : 100px 100px;
+#projects img{
 	height: 400px;
 	width: 400px;
 }
 
 .block {
-	diplay:flex;
-	justify-content: center;
-	justify-text: center;
+    margin: 100px;
+    border: 1px solid rgb(111, 226, 255);
+}
+
+.block p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.block img {
+    border: 1px solid rgb(111, 226, 255);
+    padding: 10px;
+}
+
+.block a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 166, 255);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
