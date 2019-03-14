@@ -85,9 +85,9 @@
     display: flex;
     vertical-align: 50%;
     justify-content: center;
-    height: 700px;
+    min-height: 100vh;
     background-color: rgb(190, 255, 206);
-    padding: 20px;
+    padding: 0px;
 }
 
 #welcome-section p{
@@ -139,3 +139,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+	body{
+		background-color: lightgreen;
+	}
+}
