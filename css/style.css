@@ -65,12 +65,33 @@
     width: 100%;
     justify-content: flex-end;
     align-items: center;
+    background-color: rgb(190, 255, 206);
 }
 
 #navbar2 a {
 	text-decoration: none;
-	color: aqua;
-	margin: 10px 30px;
+	color: rgb(0, 63, 14);
+    margin: 0 30px;
+    padding: 10px 0;
 }
 
+#welcome-section {
+    display: flex;
+    vertical-align: 50%;
+    justify-content: center;
+    height: 700px;
+    background-color: rgb(190, 255, 206);
+    padding: 20px;
+}
 
+#welcome-section p{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#welcome-section p b{
+    font-size: 48px;
+}
