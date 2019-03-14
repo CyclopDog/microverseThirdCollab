@@ -1,0 +1,61 @@
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+
+#navbar button {
+    height: 50px;
+    margin: 0 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#fork {
+    background-color: black;
+    border: 3px solid gray;
+    color: white;
+}
+
+#fork:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+#changeView {
+    background-color: gray;
+    color: white;
+    border: 3px solid gray;
+}
+
+#changeView:hover {
+    cursor: pointer;
+    background-color: rgb(160, 160, 160);
+}
+
+#signUp {
+    background-color: greenyellow;
+    color: black;
+    opacity: 1;
+    border: none;
+}
+
+#signUp:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#logIn {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+#logIn:hover {
+    cursor: pointer;
+    background-color: rgb(158, 158, 158);
+}
