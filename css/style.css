@@ -95,3 +95,24 @@
 #welcome-section p b{
     font-size: 48px;
 }
+
+#image-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#image-links img{
+	margin : 100px 100px;
+	height: 400px;
+	width: 400px;
+}
+
+.block {
+	diplay:flex;
+	justify-content: center;
+	justify-text: center;
+}
+
